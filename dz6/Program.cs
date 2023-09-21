@@ -2,9 +2,9 @@
 a = Convert.ToInt32(Console.ReadLine());
 if ((a % 2 == 0))
 {
-    Console.WriteLine("да");
+    Console.WriteLine($" {a}-> да");
 }
 else
 {
-    Console.WriteLine("нет");
+    Console.WriteLine($" {a}-> нет");
 }
